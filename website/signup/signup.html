@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>OSU CS561</title>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="signup.css?v=1.44" rel="stylesheet" />
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-6" data-toggle="collapse" type="button">
+                <span class="sr-only">Toggle navigation</span>
+            </button>
+            <a class="navbar-brand" href="../indexmain.php">OSU CS561</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../login.html">Log In</a>
+                </li>
+                <li><a href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <div id="signup_div">
+                        <form id="signup_form" action="signup.php" method="POST">
+                            <h2>Sign Up </h2>
+
+                            <hr class="style-hr">
+
+
+                            <p>
+                                <label>Account name: </label>
+                                <input type="text" id="uid" name="uid"/>
+                            </p>
+                            <p>
+                                <label>Password: </label>
+                                <input type="password" id="pwd" name="pwd">
+                            </p>
+                            <p>
+                                <label>User email: </label>
+                                <input type="text" id="email" name="email"/>
+                            </p>
+
+                            <h3>Choose your favorite kind of food</h3>
+
+                            <input type="checkbox" id="beef" value="1" name="beef"> beef
+                            <input type="checkbox" id="pork" value="1" name="pork"> pork
+                            <input type="checkbox" id="chicken" value="1" name="chicken"> chicken
+                            <input type="checkbox" id="lamb" value="1" name="lamb"> lamb
+                            <input type="checkbox" id="duck" value="1" name="duck"> duck
+                            <input type="checkbox" id="fish" value="1" name="fish"> fish
+                            <input type="checkbox" id="shrimp" value="1" name="shrimp"> shrimp
+
+                            <p id="smt_p">
+                                <input align="center" type="submit" name="submit" id="sbm_btn" value="signup">
+                            </p>
+                        </form>
+                        <form>
+</form>
+                    </div>
+                    <div id="msg">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <p><a href="information.html">Information</a></p>
+
+                <p class="copyright text-muted small">Copyright &copy;OSU CS561 group 2018. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="//cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script><script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script src="index.js"></script></body><script src="index.php"></script></html>
